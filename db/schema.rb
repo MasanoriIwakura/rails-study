@@ -10,13 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_04_071247) do
+ActiveRecord::Schema.define(version: 2019_07_04_134546) do
 
   create_table "members", force: :cascade do |t|
     t.integer "seq"
     t.string "name"
     t.integer "age"
     t.string "sex"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "todos", force: :cascade do |t|
+    t.integer "seq"
+    t.string "contents"
+    t.boolean "check"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  seq: 1
+  contents: MyString
+  check: false
+
+two:
+  seq: 1
+  contents: MyString
+  check: false

@@ -158,3 +158,16 @@ rails db:migrate
 rails db:fixtures:load FIXTURES=<フィクスチャの名称>
 ```
 
+## [Scaffoldについて]
+
+上記までは個別でModel, View, Controllerを作成したが、同時に作成することも可能。
+
+```bash
+# 以下のコマンドだけでOK
+rails g scaffold todo seq:integer contents:string check:boolean
+
+# マイグレーションは必要
+rails db:migrate
+```
+
+これだけで簡易的なCRUDのページが自動生成される。
