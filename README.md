@@ -21,15 +21,7 @@
 
 4. 本リポジトリをクローン
 
-```bash
-git clone https://github.com/MasanoriIwakura/vscode-rails-remote.git
-```
-
-5. VSCode起動
-
-```bash
-code vscode-rails-remote
-```
+5. VSCodeで起動
 
 6. VSCode右下のダイアログから[Reopen in Container]を選択
 
