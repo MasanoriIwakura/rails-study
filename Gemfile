@@ -65,3 +65,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'ruby-debug-ide'
 gem 'debase'
 gem 'fixtures'
+
+# Style
+gem 'autoprefixer-rails'
+gem 'bootstrap', '~> 4.3.1'
+gem 'tether-rails'
+gem 'font-awesome-sass'
