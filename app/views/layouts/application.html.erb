@@ -10,6 +10,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <h1>SimpleGreeter</h1>
+    </header>
+    <main>
+      <%= yield %>
+    </main>
+    <footer>
+      &copy; <%= Date.today.year %> MasanoriIwakura
+    </footer>
   </body>
 </html>
